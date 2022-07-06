@@ -1,0 +1,19 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header {
+  background-color: SlateGrey;
+  color: white;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}

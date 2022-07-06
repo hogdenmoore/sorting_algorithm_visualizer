@@ -1,0 +1,47 @@
+.stage {
+  position: fixed;
+  right: 0px;
+  bottom: 20%;
+  left: 0px;
+  top: 60.5px;
+}
+.wallpaper {
+  background-color: white;
+  background-image: linear-gradient(
+      45deg,
+      transparent 20%,
+      black 25%,
+      transparent 25%
+    ),
+    linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 90%, black 80%, transparent 0),
+    radial-gradient(gray 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+  opacity: 5%;
+  position: fixed;
+  right: 0px;
+  bottom: 20%;
+  left: 0px;
+  top: 60.5px;
+}
+.centerStage {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.block {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid white;
+  transition-duration: 150ms;
+  transition-property: height;
+  transition-timing-function: ease-in;
+  font-size: 10px;
+  font-weight: bold;
+}
