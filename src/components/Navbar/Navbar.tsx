@@ -24,9 +24,42 @@ const Navbar = ({handleStart,
     handleSpeed,
     algo
     }: NavProps) => {
-        
+    
+
+    const boxes = algo !== "merge" ? (
+        <div className="flex2">
+        <div className="yellow">
+            <div className="yellowbox"></div>
+            <div className="compare">Comparing</div>
+        </div>
+        <div className="red">
+            <div className="redbox"></div>
+            <div className="swap">Swapping</div>
+        </div>
+        <div className="green">
+            <div className="greenbox"></div>
+            <div className="sort">Sorted</div>
+        </div>
+    </div>
+          ) : <div className="flex2">
+          <div className="yellow">
+              <div className="yellowbox"></div>
+              <div className="compare">Comparing</div>
+          </div>
+          <div className="red">
+              <div className="redbox"></div>
+              <div className="swap">Taking From Aux Array</div>
+          </div>
+          <div className="green">
+              <div className="greenbox"></div>
+              <div className="sort">Sorted</div>
+          </div>
+      </div>;
+
+
     return (
         <nav>
+            {boxes}
             <div className="flex">
                 <div className="sliderName">
                     <div>Speed</div>

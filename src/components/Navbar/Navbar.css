@@ -13,7 +13,53 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   width: 80%;
-  top: 30%;
+  top: 20%;
+}
+.flex2 {
+  color: white;
+  position: relative;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  top: 5%;
+}
+.compare {
+  float: right;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.yellowbox {
+  background-color: #ffe400;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+}
+.swap {
+  float: right;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.redbox {
+  background-color: #ff652f;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+}
+.sort {
+  float: right;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.greenbox {
+  background-color: #14a76c;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
 }
 
 button,
